@@ -1,0 +1,95 @@
+element.syle{
+
+}
+.header{
+    & .navegacion{
+      & .listaNav{
+       .listaItem{
+        margin-right: 20px;
+
+            }
+        }
+    }
+}
+
+
+
+
+*{
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    display: list-item;
+    text-align:justify;
+    unicode-bidi: isolate;
+}
+header{
+    & .navegacion{
+        .listaNav{
+            list-style: none;
+            list-style-position: initial;
+            list-style-image: initial;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+.header{
+    background-color: #9f3647;
+    color:#ffffff;
+    height: 10vh;
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+body{
+    background-color: #181419;
+}
+html[Attributes Style]{
+    -webkit-locale: "es";
+}
+:root{
+    view-transition-name: root;
+}
+html{
+    display: block;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #9f3647;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(159,54,71);
+}
+::-webkit-scrollbar-track{
+    background: rgb(23,23,23);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
